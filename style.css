@@ -290,9 +290,6 @@ nav .hidden {
 {
   padding: 60px 200px;
   margin: 0 auto;
-  background-color:rgba(53, 17, 101, 0.121) ;
-
-
 }
 .episode h1{
   font-size: 3rem;
@@ -326,6 +323,7 @@ nav .hidden {
   justify-content: center;
   gap:30px;
   padding:24px; 
+   /* background-color:rgba(53, 17, 101, 0.121); */
  
 
 }
@@ -358,11 +356,67 @@ background-color: rgba(53, 17, 101, 0.4);
 border-radius: 24px;
 }
 
+/* host */
+.host
+{
+  /* margin: 0 auto; */
 
+  /* padding: 60px 200px 120px 200px; */
+  /* max-width: 1200px; */
+  /* background-color:rgba(53, 17, 101, 0.221); */
+}
+.host h1{
+  margin-top: 60px;
+  padding: 16px;
+  color: #FFFFFF;
+}
+.host .inside-host
+{
+  display: flex;
+  gap:24px;
+  background-color:rgba(53, 17, 101, 0.221);
+  padding:40px;
+  border-radius: 40px;
+  margin: 0 auto;
+}
+.host .inside-host .host-img
+{
+  height: 200px;
+  width: 200px;
+  /* margin-left: 40px; */
+  align-items: center;
+}
+.host .inside-host .host-details h4
+{
+  font-size: 32px;
+  font-weight: 700;
+  color: #FFFFFF;
+  margin-bottom: 16px;
+}
+.host .inside-host .host-details p
+{
+ font-size: 16px;
+  font-weight: 400;
+  color: #ffffff7a;
+  margin-bottom: 16px;
+}
 
+.host .inside-host
+ .host-details .host-links
+{
+ display: flex;
+gap: 8px;
+}
 
-
-
+.host .inside-host
+ .host-details .host-links 
+ img
+ {
+   height: 40px;
+   width: 40px;
+   border: 1px solid rgba(216, 112, 147, 0.582);
+   border-radius: 50%;
+ }
 
 
 
