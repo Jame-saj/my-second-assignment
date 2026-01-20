@@ -131,13 +131,13 @@ nav .hidden {
   font-weight: 400;
   color: rgba(255, 255, 255, 0.546);
 }
-.hero .content .buttons {
+/* .hero .content .buttons {
   margin-top: 24px;
   display: flex;
   gap: 8px;
   justify-content: center;
   flex-wrap: wrap;
-}
+} */
 .hero .content .buttons .spotify {
   background: linear-gradient(#9100f8, #fb09b4, #f7e93f);
   color: rgba(255, 255, 255, 1);
