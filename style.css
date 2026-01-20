@@ -131,13 +131,13 @@ nav .hidden {
   font-weight: 400;
   color: rgba(255, 255, 255, 0.546);
 }
-/* .hero .content .buttons {
+ .hero .content .buttons {
   margin-top: 24px;
   display: flex;
   gap: 8px;
   justify-content: center;
   flex-wrap: wrap;
-} */
+} 
 .hero .content .buttons .spotify {
   background: linear-gradient(#9100f8, #fb09b4, #f7e93f);
   color: rgba(255, 255, 255, 1);
@@ -283,6 +283,113 @@ nav .hidden {
   padding: 40px;
   border-radius: 40px;
 }
+
+
+/* episode */
+.episode
+{
+  padding: 60px 200px;
+  margin: 0 auto;
+  background-color:rgba(53, 17, 101, 0.121) ;
+
+
+}
+.episode h1{
+  font-size: 3rem;
+  font-weight: 700;
+  color: #ffffff;
+  text-align: center;
+  margin-bottom: 40px;
+}
+.episode .episode-card .same
+{
+  padding: 24px;
+}
+.episode .episode-card h3{
+  font-size: 24px;
+  font-weight: 700;
+  color:#FFFFFF;
+  margin-top: 24px;
+  margin-bottom: 12px;
+}
+.episode .episode-card p{
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 12px;
+  color: #ffffff7e;
+
+}
+.episode .episode-card
+{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: center;
+  gap:30px;
+  padding:24px; 
+ 
+
+}
+.episode .episode-card iframe
+{
+ 
+  border-top-left-radius: 24px;
+  border-top-right-radius: 24px;
+  width: 380px;
+  height: 214px;
+}
+.episode .episode-card span
+{
+  margin-bottom: 16px;
+}
+
+.episode .episode-card .episode-1
+{
+background-color: rgba(53, 17, 101, 0.4);
+border-radius: 24px;
+}
+.episode .episode-card .episode-2
+{
+background-color: rgba(53, 17, 101, 0.4);
+border-radius: 24px;
+}
+.episode .episode-card .episode-3
+{
+background-color: rgba(53, 17, 101, 0.4);
+border-radius: 24px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @media screen and (max-width: 576px) {
   /* nav */
@@ -438,4 +545,36 @@ nav .hidden {
     grid-column: span 1;
     grid-row: span 1;
   }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
